@@ -1,3 +1,4 @@
+# USED GOOGLE GEMINI TO HELP DEBUG AND UNDERSTAND THE CODE
 print("=== Challenge 1: Collatz Conjecture ===")
 current_number = int(input("Enter starting number: "))
 step_count = 0
@@ -46,3 +47,4 @@ for row in range(1, 11):
         product = row * col
         print(f"{product:4}", end="")
     print()
+
